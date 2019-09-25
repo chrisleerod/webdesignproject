@@ -152,7 +152,7 @@ li {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
     line-height: 1em;
 }
 
@@ -164,21 +164,93 @@ li {
     padding-top: 25px;
 }
 
-.buttons {
-  margin: auto;
-  width: auto;
+.team {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
   text-align: center;
   padding-top: 50px;
+  line-height: 1em;
+  padding-bottom: 25px;
+}
+
+.david {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.david2 {
+  color: #aea9b9;
+}
+
+.sara {
+  color: #aea9b9;
+}
+
+.michael {
+  color: #aea9b9;
+}
+
+.card1 {
+  background: #090b1e;
+  margin: 10px;
+  border-radius: 2%;
+  transition: transform .2s;
+}
+
+.card2 {
+  background: #090b1e;
+  margin: 10px;
+  border-radius: 2%;
+  transition: transform .2s;
+}
+
+.card3 {
+  background: #090b1e;
+  margin: 10px;
+  border-radius: 2%;
+  transition: transform .2s;
+}
+
+.card1:hover {
+  transform: scale(1.02);
+}
+
+.card2:hover {
+  transform: scale(1.02);
+}
+
+.card3:hover {
+  transform: scale(1.02);
 }
 
 .pastries {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   justify-content: center;
+  background: #0e112c;
 }
 
 img {
     border-radius: 2%;
+}
+
+.map {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hey {
+  color: white;
+  text-align: center; 
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
 }
 
 footer {
@@ -199,7 +271,47 @@ footer {
   font-size: 16px;
   padding-top: 25px;
 }
+.team {
+  font-size: 24px;
+  padding-top: 10px;
+}
 .pastries {
   padding: 25px;
   }
+iframe {
+  width: 450px;
+  height: 300px;
+  }
+}
+
+.scroll-downs {
+  margin: 0 auto;
+  width :34px;
+  height: 55px;
+  padding-top: 25px;
+  padding-bottom: 175px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
 }
